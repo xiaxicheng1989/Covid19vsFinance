@@ -43,4 +43,8 @@ The idea is very simple. The code effectively looks for keywords, which the user
 This script is sofar only adapted on [reuters](https://reuters.com). Slightly modification is required to adapt it to FT and bloomberg, which all depends on the html of the webpage.
 
 The following graph shows the new article distribution, plotted together with SP500 index.  
-<img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/Webscrapping.png" width="60%">  
+<img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/Webscrapping.png" width="80%">  
+The top graph shows the ratio of corona related articles to the overall article. As the number of corona virus article decrease the market seems to recover. This indicates negative correlation.  
+
+If we only look at the corona related stories, days when the number of negative news overtakes positive news, the market drops and vise versa. 
+The next step here, is to look at the relation to volatility of the market. This might be useful to find the right time to invest and to minimise the opportunity cost.
