@@ -40,4 +40,7 @@ This was initially used to estimate when the new cases reach the peak, which cou
 ## Web scarping 
 It is believed that the daily market sentiment is heavity dependent on the news. To illustrated this, I use web scraping (beautifulsoup library) to extract all corona virus related news headlines and articles.  
 The idea is very simple. The code effectively looks for keywords, which the user can define. Words connected to improving corona cases will be labeled positive and illustrated in green, otherwise labeled as negative and in red.  
-This script is sofar only adapted on [reuters](https://reuters.com)
+This script is sofar only adapted on [reuters](https://reuters.com). Slightly modification is required to adapt it to FT and bloomberg, which all depends on the html of the webpage.
+
+The following graph shows the new article distribution, plotted together with SP500 index.  
+<img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/Webscrapping.png" width="60%">  
