@@ -34,5 +34,10 @@ To find the estimation of the new case overall, I estimate the fit for each coun
 <img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/MarketVSCOVID.png" width="60%">   
 The dash-dotted lines show the market changes over the course of the corona virus. The black solid line shows the overall new cases development and the dashed lines are the fit estimation.  
 
-This was initially used to estimate when the new cases reaches the peak, which could be a opportunity to invest into the crushed market.
+This was initially used to estimate when the new cases reach the peak, which could be a opportunity to invest into the crushed market.
 
+
+## Web scarping 
+It is believed that the daily market sentiment is heavity dependent on the news. To illustrated this, I use web scraping (beautifulsoup library) to extract all corona virus related news headlines and articles.  
+The idea is very simple. The code effectively looks for keywords, which the user can define. Words connected to improving corona cases will be labeled positive and illustrated in green, otherwise labeled as negative and in red.  
+This script is sofar only adapted on [reuters](https://reuters.com)
