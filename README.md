@@ -30,5 +30,9 @@ To varify the correctness, I fixed the skewness and applied the fit on the other
 <img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/modeltest.png" width="32%"> <img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/modeltest1.png" width="32%"> <img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/modeltest2.png" width="32%">  
 The simple model seems to do the job.  
 To find the estimation of the new case overall, I estimate the fit for each country and summed them up to illustrate the case overall as shown below:  
-<img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/modeltest2.png" width="32%"> 
+
+<img src="https://github.com/xiaxicheng1989/Covid19vsFinance/blob/master/plots/MarketVSCOVID.png" width="60%">   
+The dash-dotted lines show the market changes over the course of the corona virus. The black solid line shows the overall new cases development and the dashed lines are the fit estimation.  
+
+This was initially used to estimate when the new cases reaches the peak, which could be a opportunity to invest into the crushed market.
 
